@@ -1,0 +1,15 @@
+{
+  "name": "balance-sweeper",
+  "version": "1.0.0",
+  "main": "src/sweep_funds.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/sweep_funds.js"
+  },
+  "dependencies": {
+    "axios": "^1.0.0",
+    "dotenv": "^16.0.0",
+    "pm2": "^5.4.0",
+    "web3": "^1.6.0"
+  }
+}
